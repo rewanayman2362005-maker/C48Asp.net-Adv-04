@@ -5,6 +5,7 @@ namespace stack___queue_route
     internal class Program
     {
         static void Main(string[] args)
+
         {
             #region 1. Print the queue contents and Count 
             //Queue<string> documents = new Queue<string>();
@@ -103,7 +104,29 @@ namespace stack___queue_route
             //    Console.WriteLine("Leaving: " + page);
             //}
             //Console.WriteLine("Current page: " + browserHistory.Peek());
-            
+
+            #endregion
+            #region 5 Try TryPop on an empty stack — what happens?
+            //Stack<string> browserHistory = new Stack<string>();
+            //browserHistory.Push("google.com");
+            //browserHistory.Push("github.com");
+            //browserHistory.Push("stackoverflow.com");
+            //browserHistory.Push("youtube.com");
+            //browserHistory.Push("claude.ai");
+            //browserHistory.Pop();
+            //browserHistory.Pop();
+            //browserHistory.Pop();
+            //browserHistory.Pop();
+            //browserHistory.Pop();
+            //if (browserHistory.TryPop(out string page))
+            //{
+            //    Console.WriteLine("Popped: " + page);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Stack is empty.");
+            //}
+
             #endregion
         }
     }
