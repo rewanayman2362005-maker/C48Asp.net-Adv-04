@@ -77,7 +77,19 @@ namespace stack___queue_route
             //browserHistory.Push("claude.ai");
             //Console.WriteLine("Current page: {0}", browserHistory.Peek());
             #endregion
-           
+            #region 3.Press "back" 3 times using Pop — print each page you leave
+            ////Stack<string> browserHistory = new Stack<string>();
+            ////browserHistory.Push("google.com");
+            ////browserHistory.Push("github.com");
+            ////browserHistory.Push("stackoverflow.com");
+            ////browserHistory.Push("youtube.com");
+            ////browserHistory.Push("claude.ai");
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    string page = history.Pop();
+            //    Console.WriteLine("Leaving: " + page);
+            //}
+            #endregion
         }
     }
 }
