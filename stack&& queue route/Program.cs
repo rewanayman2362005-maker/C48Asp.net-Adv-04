@@ -59,7 +59,15 @@ namespace stack___queue_route
             //{
             //    Console.WriteLine("\nTryDequeue: Queue is empty.");
             //}
-            #endregion 
+            #endregion
+            #region 1. Push 5 URLs: "google.com", "github.com", "stackoverflow.com", "youtube.c   "claude.ai"
+            //Stack<string> browserHistory = new Stack<string>();
+            //browserHistory.Push("google.com");
+            //browserHistory.Push("github.com");
+            //browserHistory.Push("stackoverflow.com");
+            //browserHistory.Push("youtube.com");
+            //browserHistory.Push("claude.ai");
+            #endregion
         }
     }
 }
