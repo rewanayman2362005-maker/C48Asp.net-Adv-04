@@ -68,6 +68,16 @@ namespace stack___queue_route
             //browserHistory.Push("youtube.com");
             //browserHistory.Push("claude.ai");
             #endregion
+            #region 2. Use Peek to see the current page (top of stack)
+            //Stack<string> browserHistory = new Stack<string>();
+            //browserHistory.Push("google.com");
+            //browserHistory.Push("github.com");
+            //browserHistory.Push("stackoverflow.com");
+            //browserHistory.Push("youtube.com");
+            //browserHistory.Push("claude.ai");
+            //Console.WriteLine("Current page: {0}", browserHistory.Peek());
+            #endregion
+           
         }
     }
 }
