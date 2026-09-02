@@ -26,8 +26,23 @@ namespace stack___queue_route
             //documents.Enqueue("Letter.docx");
             //documents.Enqueue("Resume.pdf");
             //documents.Enqueue("Photo.jpg");
- 
+
             //Console.WriteLine("Next document to print: {0}", documents.Peek());
+            #endregion
+            #region  3. Process the queue: Dequeue each document and print "Printing: [name]"
+            //Console.WriteLine("\nProcessing Queue:");
+            //Queue<string> documents = new Queue<string>();
+            //documents.Enqueue("Report.pdf");
+            //documents.Enqueue("Invoice.pdf");
+            //documents.Enqueue("Letter.docx");
+            //documents.Enqueue("Resume.pdf");
+            //documents.Enqueue("Photo.jpg");
+            //while (documents.Count > 0)
+            //{
+            //    string document = documents.Dequeue();
+            //    Console.WriteLine("Printing: " + document);
+   
+            //}
             #endregion
         }
     }
