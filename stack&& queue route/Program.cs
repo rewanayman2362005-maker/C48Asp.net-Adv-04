@@ -86,9 +86,24 @@ namespace stack___queue_route
             ////browserHistory.Push("claude.ai");
             //for (int i = 0; i < 3; i++)
             //{
-            //    string page = history.Pop();
+            //    string page = browserHistory.Pop();
             //    Console.WriteLine("Leaving: " + page);
             //}
+            #endregion
+            #region 4. Print the current page after going back
+            //Stack<string> browserHistory = new Stack<string>();
+            //browserHistory.Push("google.com");
+            //browserHistory.Push("github.com");
+            //browserHistory.Push("stackoverflow.com");
+            //browserHistory.Push("youtube.com");
+            //browserHistory.Push("claude.ai");
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    string page = browserHistory.Pop();
+            //    Console.WriteLine("Leaving: " + page);
+            //}
+            //Console.WriteLine("Current page: " + browserHistory.Peek());
+            
             #endregion
         }
     }
