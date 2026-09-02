@@ -41,9 +41,25 @@ namespace stack___queue_route
             //{
             //    string document = documents.Dequeue();
             //    Console.WriteLine("Printing: " + document);
-   
+
             //}
             #endregion
+            #region 4. Try TryDequeue on the now-empty queue — what happens?
+            //Queue<string> documents = new Queue<string>();
+            //documents.Enqueue("Report.pdf");
+            //documents.Enqueue("Invoice.pdf");
+            //documents.Enqueue("Letter.docx");
+            //documents.Enqueue("Resume.pdf");
+            //documents.Enqueue("Photo.jpg");
+            //if (documents.TryDequeue(out string? result))
+            //{
+            //    Console.WriteLine("Printing: " + result);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("\nTryDequeue: Queue is empty.");
+            //}
+            #endregion 
         }
     }
 }
